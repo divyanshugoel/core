@@ -15,14 +15,8 @@ namespace fms
 {
 enum class grNodeType
 {
-    PICK,
-    DROP,
-    WAIT,
-    CHARGE,
-    DOCK,
-    PRE_DOCK,
-    UN_DOCK,
-    POST_DOCK,
+    A,
+    B
     NONE
 };
 } // namespace fms
