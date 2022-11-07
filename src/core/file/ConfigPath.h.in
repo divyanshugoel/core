@@ -1,0 +1,32 @@
+#pragma once
+// CMAKE automatically generated file: DO NOT EDIT!
+
+#cmakedefine PROJECT_DIR_INSTALL "@PROJECT_DIR_INSTALL@"
+#cmakedefine PROJECT_DIR_ROOT "@PROJECT_DIR_ROOT@"
+#cmakedefine PROJECT_DIR_SRC "@PROJECT_DIR_SRC@"
+#cmakedefine PROJECT_DIR_LOGS "@PROJECT_DIR_RUN_LOGS@"
+#cmakedefine PROJECT_DIR_ASSETS "@PROJECT_DIR_ASSETS@"
+#cmakedefine PROJECT_DIR_ASSETS_TEST "@PROJECT_DIR_ASSETS_TEST@"
+#cmakedefine PROJECT_DIR_SHADER "@PROJECT_DIR_SHADER@"
+#cmakedefine PROJECT_DIR_FONT "@PROJECT_DIR_FONT@"
+#cmakedefine PROJECT_DIR_CONFIG "@PROJECT_DIR_CONFIG@"
+
+#if defined (__linux__)
+    #define PLATFORM_NAME "linux" // Linux
+    #define SLASH "/"
+#elif defined (_WIN32) || defined (_WIN64) || defined (__CYGWIN__)
+    #define PLATFORM_NAME "windows" // Windows
+    #define SLASH "\\"
+#elif defined(__APPLE)
+    #define PLATFORM_NAME "apple" // Apple
+    #define SLASH "/"
+#elif
+    #define PLATFORM_NAME "unknown" // Unknown
+    #define SLASH "/"
+
+#endif
+
+#define fmsPath(folder) PROJECT_DIR_INSTALL + SLASH + folder
+#define fmsLogPath(folder) PROJECT_DIR_LOGS + SLASH + folder
+#define fmsAssetsPath(folder) PROJECT_DIR_ASSETS + SLASH + folder
+#define fmsConfigPath(folder) PROJECT_DIR_CONFIG + SLASH + folder

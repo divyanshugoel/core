@@ -1,0 +1,16 @@
+module agentInfo
+{
+   struct agentInfo
+   {
+      short id;
+      char message[1024];
+   };
+   struct agentFeedback
+   {
+      short id;
+      char message[1024];
+   };
+#pragma keylist agentInfo id
+#pragma keylist agentFeedback id
+};
+

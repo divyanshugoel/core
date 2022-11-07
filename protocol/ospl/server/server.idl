@@ -1,0 +1,16 @@
+module server
+{
+   struct serverCall
+   {
+      short id;
+      char message[1024];
+   };
+   struct serverFeedback
+   {
+      short id;
+      char message[1024];
+   };
+#pragma keylist serverCall id
+#pragma keylist serverFeedback id
+};
+

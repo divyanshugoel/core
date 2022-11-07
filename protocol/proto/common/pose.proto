@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package poseMessage;
+
+message positionMessage
+{
+  double x = 1;
+  double y = 2;
+  double z = 3;
+}
+
+message orientationMessage
+{
+  double x = 1;
+  double y = 2;
+  double z = 3;
+  double w = 4;
+}
+
+message poseMessage 
+{
+  positionMessage pos = 1;
+  orientationMessage ort = 2;
+}

@@ -1,0 +1,4 @@
+project_add_unit_tests()
+
+project_target_link_libraries(graph)
+project_target_link_libraries(mathematics)

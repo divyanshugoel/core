@@ -1,0 +1,8 @@
+project_add_library()
+
+project_target_link_libraries(core)
+project_target_link_libraries(mathematics)
+project_target_link_libraries(pthread)
+project_target_link_libraries(JsonCpp::JsonCpp)
+
+project_add_subdirectories()

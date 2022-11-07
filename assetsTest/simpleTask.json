@@ -1,0 +1,9 @@
+{
+    "taskId":"TASK00002",
+    "priority":1,
+    "sourceLocation":"st_predock_1",
+    "destinationLocation":"bb_drop",
+    "deadline":"2021-07-07 10:18:03",
+    "dependsOn":"TASK00001",
+    "baggage":null
+}

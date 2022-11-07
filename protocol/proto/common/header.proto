@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package header;
+
+message timeStamp
+{
+    uint32 hh = 2;
+    uint32 mm = 3;
+    uint32 ss = 1;
+}
+
+message dateStamp 
+{
+    uint32 dd = 1;
+    uint32 mm = 2;
+    uint32 yyyy = 3;
+}
+
+message header 
+{
+    timeStamp time = 1;
+    dateStamp date = 2;
+    int64 seq = 3;
+    int64 id = 4;
+}

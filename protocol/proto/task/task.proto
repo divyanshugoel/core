@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package task;
+
+
+
+message task 
+{
+    int32 id = 1;
+    string start = 2;
+    string end = 3;
+    pose start = 4;
+    pose end;
+}

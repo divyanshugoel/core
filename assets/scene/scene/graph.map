@@ -1,0 +1,66 @@
+{
+	"edges" : 
+	[
+		{
+			"from" : "MPL003",
+			"isUniDirectional" : true,
+			"name" : "MPL003|MPL004",
+			"to" : "MPL004"
+		},
+		{
+			"from" : "MPL004",
+			"isUniDirectional" : true,
+			"name" : "MPL004|N96",
+			"to" : "N96"
+		},
+		{
+			"from" : "N96",
+			"isUniDirectional" : true,
+			"name" : "N96|N95",
+			"to" : "N95"
+		}
+	],
+	"nodes" : 
+	[
+		{
+			"name" : "Destacker_1_infeed",
+			"pose" : 
+			{
+				"orientation" : 
+				{
+					"w" : 0.064255620519886425,
+					"x" : 0,
+					"y" : 0,
+					"z" : 0.99793347234753293
+				},
+				"position" : 
+				{
+					"x" : 18.741209391628121,
+					"y" : 10.020606320344786,
+					"z" : 0
+				}
+			},
+			"type" : "drop"
+		},
+		{
+			"name" : "Destacker_1_outfeed",
+			"pose" : 
+			{
+				"orientation" : 
+				{
+					"w" : 0.99858764541304412,
+					"x" : 0,
+					"y" : 0,
+					"z" : -0.053129223864390569
+				},
+				"position" : 
+				{
+					"x" : 8.0332886796647216,
+					"y" : 11.343009862651231,
+					"z" : 0
+				}
+			},
+			"type" : "pick"
+		}
+	]
+}

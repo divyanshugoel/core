@@ -1,0 +1,10 @@
+// Copyright 2022 Divyanshu Goel.
+#pragma once
+
+////////////////////////////////////////////////////////////////////////////////
+//
+class crApplication
+{
+public:
+    std::string getVersion();
+};

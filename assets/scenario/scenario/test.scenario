@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<!-- This is not used anymore I think. -->
+<root>
+    <RobotTypes>
+        <Count>10</Count>
+    </RobotType>
+</root>
+
